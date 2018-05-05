@@ -13,8 +13,8 @@ if array == languages
   languages
 elsif array == students
     students.map  {|name| name.split(" ").first}
-students
+
 end
 array
-
+students
 end
