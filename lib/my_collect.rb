@@ -2,10 +2,10 @@ def my_collect(array)
   i = 0
 while i < array.length
   yield(array[i])
-  if 
+  if array == languages
     languages.map do {|name| name.upcase}
     end
-  elsif
+  elsif array == students
     students.map do {|name| name.split(" ").first}
     end
   end
