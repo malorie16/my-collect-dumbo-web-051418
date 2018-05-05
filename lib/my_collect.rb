@@ -9,10 +9,10 @@ while i < array.length
   i = i + 1
 end
 if array == languages
-  languages.map  {|name| name.upcase}
+  languages = languages.map  {|name| name.upcase}
   languages
 elsif array == students
-  students.map  {|name| name.split(" ").first}
+  students = students.map  {|name| name.split(" ").first}
 students
 end
 array
