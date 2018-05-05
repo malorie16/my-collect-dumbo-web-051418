@@ -1,5 +1,5 @@
 def my_collect(array)
-  i = 0
+  
   if array == languages
     languages.map  {|name| name.upcase}
 
@@ -7,6 +7,7 @@ def my_collect(array)
     students.map  {|name| name.split(" ").first}
 
   end
+  i = 0
 while i < array.length
 
   yield(array[i])
