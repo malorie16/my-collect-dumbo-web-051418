@@ -3,9 +3,12 @@ def my_collect(array)
 while i < array.length
   yield(array[i])
   if languages
-    languages.map {|name| name.upcase}
+    languages.map do {|name| name.upcase}
+    end
   elsif students
-    students.map {|name| name.split(" ").first}
+    students.map do {|name| name.split(" ").first}
+    end
+  end
   i = i + 1
 end
 array
